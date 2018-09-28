@@ -153,6 +153,15 @@
           <source>1.5</source>
           <target>1.5</target>
         </configuration>
+      <build>
+       <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>3.1.0</version>
+        </plugin>
+       </plugins>
+      </build>
       </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
